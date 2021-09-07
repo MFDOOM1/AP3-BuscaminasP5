@@ -1,4 +1,4 @@
-//Constantes del juego
+//Constantes del juegoPEDO
 const COLUMNAS = 10;
 const FILAS = 10;
 const CANTIDAD_MINAS = 10;
@@ -45,10 +45,6 @@ function draw() {
 
 function ganoElJuego()
 {
-  if (tieneMinaCasillero(columnaPresionada,filaPresionada)){
-    perder();
-
-  }
   return false;   //Esto hace que NUNCA gane el juego. Modificar/completar
 }
 
