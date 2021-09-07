@@ -45,6 +45,10 @@ function draw() {
 
 function ganoElJuego()
 {
+  if (tieneMinaCasillero(columnaPresionada,filaPresionada)){
+    perder();
+
+  }
   return false;   //Esto hace que NUNCA gane el juego. Modificar/completar
 }
 
